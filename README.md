@@ -28,7 +28,7 @@
 这样子也相当于大家不用抓包了，如果你进入完美校园健康打卡界面，它没有自动填写信息，可能
 
 本项目也就不起作用了，可以试试打一次卡然后再进入看有无自动填充信息。
-
+  
 ```python
 def get_post_json(self, token):
     jsons = {"businessType": "epmpics",
